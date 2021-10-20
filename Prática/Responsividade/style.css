@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+h1{
+    margin: auto;
+}
+
+img{
+    min-width: 300;
+    max-width: 1000;
+    margin: auto;
+    display: block;
+}
+

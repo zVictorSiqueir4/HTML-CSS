@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+</head>
+<body>
+    <h1>Teste de imagem e audio</h1>
+    <p>Testando uma imagem e adaptando-a em diferentes resoluções de tela.</p>
+
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audio/twisted-bandits-all-around-me.mp3" type="audio/mpeg">
+    </audio>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagem/rx7-350.jpg" type="image/jpg">
+        <source media="(max-width: 900px)" srcset="imagem/rx7-650.jpg" type="image/jpg">
+        <source media="(max-width: 1080px)" srcset="imagem/rx7-900.jpg" type="image/jpg">
+        <img src="imagem/rx7-1080.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
