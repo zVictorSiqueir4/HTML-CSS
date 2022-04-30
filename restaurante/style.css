@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    background-color: rgb(150, 107, 67);
+    text-align: center;
+    padding: 40px;
+}
+
+section#normal01{
+    background-color: rgb(150, 107, 67);
+    height: 580px;
+    padding: 10px;
+}
+
+section.imagem > p{
+    color: white;
+}
+
+section#img01{
+    background-image: url('imagens/background01.png');
+    background-position: center;
+}
